@@ -3,17 +3,17 @@
 This phase establishes the baseline forensic environment inside a macOS Sonoma VM.  
 The goal is to understand core macOS structures, collect foundational artifacts, and build a reference point for future analysis.
 
-## 🎯 Objectives
+## Objectives
 - Understand key macOS forensic artifact locations
 - Collect system, user, and application metadata
 - Create a clean baseline snapshot for comparison
 - Build initial Swift + Bash tools used later in the investigation
 
-## 📂 Structure
+## Structure
 - `scripts/` → Swift & Bash tools for artifact collection and enumeration
 - `analysis/` → Notes, findings, baseline comparisons, screenshots
 
-## 📌 Artifacts Collected in Phase 1
+## Artifacts Collected in Phase 1
 - Hardware & software metadata
 - Unified logs (last 24 hours)
 - Safari history (if present)
@@ -35,7 +35,7 @@ Document findings in analysis/baseline.md.
 
 ---
 
-# 🧰 **phases/01_fundamentals/scripts/collect_basics.sh**
+# **phases/01_fundamentals/scripts/collect_basics.sh**
 
 ```bash
 #!/bin/bash
@@ -70,4 +70,7 @@ echo "    Artifacts saved to: $OUTPUT"
 ---
 
 ### Make executable:
-```chmod +x scripts/collect_basics.sh```
+```
+chmod +x scripts/collect_basics.sh
+```
+
