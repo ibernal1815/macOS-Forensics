@@ -21,7 +21,7 @@ The goal is to understand core macOS structures, collect foundational artifacts,
 - Installed applications
 - User login items and LaunchAgents
 
-## 🚀 Usage
+## Usage
 Run the baseline collection script:
 
 ```bash
@@ -73,4 +73,5 @@ echo "    Artifacts saved to: $OUTPUT"
 ```
 chmod +x scripts/collect_basics.sh
 ```
+
 
